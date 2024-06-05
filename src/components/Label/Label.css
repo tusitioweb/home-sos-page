@@ -7,6 +7,15 @@
     padding: 10px;
     border: none;
     box-shadow: 0px 0px 5px black;
+    font-family: var(--montserrat);
+}
+
+#label h3 {
+    font-weight: 700;
+}
+
+#label p {
+    font-weight: 200;
 }
 
 #person-img {

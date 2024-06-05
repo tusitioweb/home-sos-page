@@ -1,0 +1,26 @@
+
+
+.slogan {
+    color: white;
+    font-family: var(--montserrat);
+    font-weight: 700;
+    position: absolute;
+    right: 190px;
+    top: 340px;
+    width: 35%;
+    padding: 10px;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

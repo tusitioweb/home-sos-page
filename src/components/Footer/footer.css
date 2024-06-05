@@ -1,0 +1,35 @@
+
+#footer {
+    width: 100%;
+    background-color: white;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    bottom: -100px; /* Posiciona el footer fuera de la vista inicialmente */
+}
+
+.text-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.footer-title {
+    font-size: 2.6rem;
+    font-family: var(--montserrat);
+    font-weight: 1000;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    transform: scaleY(3);
+    transform-origin: center; 
+    line-height: 1; 
+    margin-right: 10px;
+} 
+
+.footer-visible {
+    bottom: 0; /* Posiciona el footer visible cuando la clase se añade */
+}

@@ -1,5 +1,10 @@
 #navbar {
     background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: fixed;
+    top: 50px;
+    width: 100%;
 }
 
 ul {
@@ -13,6 +18,12 @@ li {
     list-style: none;
     font-size: 1em;
     color: white;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--montserrat);
 }
 
  

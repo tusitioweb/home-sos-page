@@ -7,7 +7,6 @@ export default function Label({person, description}) {
             <div id="label">
                 <div id="person-img"></div>
                 <h3>{person}</h3>
-                <strong>DESCRIPTION</strong>
                 <p>
                     {description}
                 </p>
