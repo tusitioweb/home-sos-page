@@ -1,0 +1,15 @@
+.linea {
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 100px;
+    width: 0%;
+}
+
+#labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

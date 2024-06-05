@@ -1,0 +1,18 @@
+#navbar {
+    background-color: transparent;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 15px 15px;
+    list-style: none;
+    font-size: 1em;
+    color: white;
+}
+
+ 
