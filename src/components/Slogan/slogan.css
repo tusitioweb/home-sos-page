@@ -5,12 +5,15 @@
     font-family: var(--montserrat);
     font-weight: 700;
     position: absolute;
-    right: 190px;
-    top: 340px;
+    right: 100px;
+    top: 20px;
+    /* right: 190px;
+    top: 340px; */
     width: 35%;
     padding: 10px;
     font-size: 3.8rem;
     text-transform: uppercase;
+    text-align: center;
 
     animation: fadeIn 3s ease-in-out;
 }

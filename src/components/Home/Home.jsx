@@ -6,7 +6,9 @@ import NavBar from "../NavBar/NavBar"
 import Slogan from "../Slogan/Slogan.jsx"
 
 export default function Home() {
+    
     return (
+        <>
         <div className="header">
             <NavBar />
             <Slogan />
@@ -16,5 +18,6 @@ export default function Home() {
             </div>  
             <hr />
         </div>
+        </>
     )
 }

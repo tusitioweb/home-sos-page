@@ -1,7 +1,7 @@
 import "./navbar.css"
 
 
-export default function NavBar() {
+export default function     NavBar() {
 
     const handleStyles = () => {
         console.log("hola")
@@ -12,7 +12,7 @@ export default function NavBar() {
             <nav id="navbar" onMouseOver={handleStyles}>
                 <ul>
                     <li>
-                        <a href="#" className="text-3xl font-bold underline">HOME</a>
+                        <a href="#" className="" id="homeAnchor">HOME</a>
                     </li>
                     <li>
                         <a href="">ABOUT US</a>
@@ -21,7 +21,7 @@ export default function NavBar() {
                         <a href="#labels" rel="noopener noreferrer">PROJECTS</a>
                     </li>
                     <li>
-                        <a href="">CONTACT US</a>
+                        <a href="#footer">CONTACT US</a>
                     </li>
                 </ul>
             </nav>
